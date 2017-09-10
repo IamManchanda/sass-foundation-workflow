@@ -22,42 +22,18 @@ To use this template, your computer needs:
 - [NodeJS](https://nodejs.org/en/) (0.12 or greater)
 - [Git](https://git-scm.com/)
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
+### Setup
 
-### Using the CLI
-
-Install the Foundation CLI with this command:
+To set up the template, first download this repo with Git:
 
 ```bash
-npm install foundation-cli --global
-```
-
-Use this command to set up a blank Foundation for Sites project with this template:
-
-```bash
-foundation new --framework sites --template zurb
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
-
-Now `cd` to your project name and to start your project run 
-
-```bash
-foundation watch
-```
-
-### Manual Setup
-
-To manually set up the template, first download it with Git:
-
-```bash
-git clone https://github.com/zurb/foundation-zurb-template projectname
+git clone https://github.com/IamManchanda/sass-foundation-workflow sass-foundation-workflow
 ```
 
 Then open the folder in your command line, and install the needed dependencies:
 
 ```bash
-cd projectname
+cd sass-foundation-workflow
 npm install
 ```
 

@@ -1,3 +1,5 @@
+# Sass Foundation Workflow
+
 ## Installation
 
 To use this template, your computer needs:

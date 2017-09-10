@@ -29,3 +29,8 @@ http://localhost:8000
 ```
 
 To create compressed, production-ready assets, run `npm run build`.
+
+### Usage
+
+`html` files are in `src/pages` folder,
+whereas `scss` files are in `src/assets/scss` folder 

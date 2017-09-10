@@ -1,0 +1,7 @@
+/**
+ * Sass Script
+ */
+
+.bar { @include box(4rem, 3rem); } // Rectangle
+.baz { @include box(5rem); } // Square
+.shaz { @include box(6rem, $circle: true); } // Circle

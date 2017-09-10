@@ -1,0 +1,5 @@
+/**
+ * Sass Script
+ */
+
+.hammenu { @include hamburger($black, $dark-gray, 20px, 16px, 2px, 3); }

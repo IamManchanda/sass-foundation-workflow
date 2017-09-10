@@ -1,0 +1,8 @@
+/**
+ * Sass Script
+ */
+
+.triangle-up { @include css-triangle(5px, black, up); }
+.triangle-down { @include css-triangle(20px, #f00, down); }
+.triangle-right { @include css-triangle(60px, green, right); }
+.triangle-left { @include css-triangle(10px, blue, left); }

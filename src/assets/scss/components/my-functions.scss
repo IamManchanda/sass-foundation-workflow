@@ -1,0 +1,22 @@
+/**
+ * Sass Script
+ */
+
+$color1: #0875bd;
+$color2: #0EA29D;
+$num: 40px;
+$int1: 12;
+$int2: 15;
+
+$a: color-luminance($primary-color); // Checks the luminance of $color.
+$b: color-contrast($color1, $color2); // Checks the contrast ratio of two colors.
+$c: strip-unit($num); // Removes the unit (e.g. px, em, rem) from a value, returning the number only.
+$d: rem-calc($num); // Converts one or more pixel values into matching rem values.
+$e: gcd($int1, $int2); // Finds the greatest common divisor of two integers.
+
+/* Just for demo */
+.a { color: $a; }
+.b { content: $b; }
+.c { content: $c; }
+.d { content: $d; }
+.e { content: $e; }

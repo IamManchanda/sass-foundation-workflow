@@ -1,0 +1,51 @@
+/* Grid Code */
+
+.wrapper {
+  // Creates a max width container, designed to house up your grid content.
+  // => @include xy-grid-container($width);
+  @include xy-grid-container();
+}
+
+.row {
+  // Creates a container for your flex cells.
+  // => @include xy-grid($direction, $wrap);
+  @include xy-grid();
+}
+
+.content {
+  // Creates a cell for your grid.
+  // => @include xy-cell($size, $gutter-output, $gutters, $gutter-type, $gutter-position, $breakpoint, $vertical);
+  @include xy-cell(12);
+  
+  // Wraps a media query around the content you put inside the mixin. 
+  // => @include breakpoint($value) { ... }
+  @include breakpoint(medium) {
+    @include xy-cell(auto);
+  }
+}
+
+.sidebar {
+  @include xy-cell(12);
+  @include breakpoint(medium) {
+      @include xy-cell(4);
+  }
+}
+
+/* Demo Styling */
+
+.wrapper {
+  margin-top: 40px;
+  .content, .sidebar {
+    line-height: 50px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .content {
+    background: #1779ba;
+  }
+  .sidebar {
+    background: #37a0e6;
+  }
+}

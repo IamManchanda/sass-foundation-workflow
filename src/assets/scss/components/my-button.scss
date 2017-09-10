@@ -1,0 +1,5 @@
+/**
+ * Sass Script
+ */
+
+.my-button { @include button(false, $primary-color, auto, auto, hollow); }
